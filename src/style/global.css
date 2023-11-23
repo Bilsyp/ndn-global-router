@@ -1,0 +1,19 @@
+body {
+  font-family: "Kufam", sans-serif;
+}
+
+#map {
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+button {
+  padding: 8px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #1e3888;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}

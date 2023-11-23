@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router NDN Mapping</title>
+    <link rel="stylesheet" href="/src/style/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app">
+        <div id="map"></div>
+    </div>
+    <div class="options-route">
+        <div>
+            <select id="router">
+                <option value="router">router</option>
+            </select>
+            <ul id="route">
+
+            </ul>
+            <button id="simulation">
+                Start Simulation
+            </button>
+
+            <button id="restart">
+                Restart Simulation
+            </button>
+        </div>
+        <div class="">
+            <h1>Search Router by Clicking On The Map</h1>
+            <h3>Router : <span id="findRouter"></span></h3>
+        </div>
+
+    </div>
+    <!--  -->
+    <script type="module" src="/src/main.js"></script>
+    <!-- <script src="/node_modules/leaflet.motion/dist/leaflet.motion.js"></script> -->
+</body>
+
+</html>
